@@ -53,7 +53,7 @@ ul li a {
 .botao2 {
     color: white;
     background: var(--main-color);
-    border: 1px solid #8E2424;
+    border: 1px solid var(--main-color);
     border-radius: 5px;
     padding: 10px;
 }
@@ -81,8 +81,8 @@ ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 50px 0 50px;
-    padding: 0 50px 0 50px;
+    margin: 0 50px;
+    padding: 0 50px;
 }
 
 .metricas-container div h1 {
@@ -97,4 +97,28 @@ ul li a {
 .metricas-container div p {
     color: var(--text-color);
     font-size: 16px;
+}
+
+.vagas1 {
+    text-align: center;
+    margin: 50px;
+}
+
+.vagas1 p{
+    display: block;
+    width: 125px;
+    margin: 0 auto;
+    color: var(--main-color);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.vagas1 h1{
+    margin: 16px 0;
+}
+
+.vagas1 h2 {
+    margin: 50px 0;
+    color: var(--text-color);
 }
