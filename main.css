@@ -104,7 +104,7 @@ ul li a {
     margin: 50px;
 }
 
-.vagas1 p{
+.vagas1 p {
     display: block;
     width: 125px;
     margin: 0 auto;
@@ -114,11 +114,44 @@ ul li a {
     padding: 10px;
 }
 
-.vagas1 h1{
+.vagas1 h1 {
     margin: 16px 0;
 }
 
 .vagas1 h2 {
     margin: 50px 0;
     color: var(--text-color);
+}
+
+.vag {
+    font-size: 20px;
+    width: 768px;
+    margin: 0 auto;
+}
+
+.vagas2 {
+    width: 768px;
+    margin: 50px auto;
+    border: 1px solid #EAECF0;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 28px;
+    border-radius: 16px;
+}
+
+
+.titulo-vaga {
+    width: 720px;
+    height: 28px;
+    font-size: 18px;
+    align-self: stretch;
+    margin: 8px 8px 28px;
+    font-weight: 750;
+}
+
+.informacoes span {
+    color: var(--text-color);
+    font-size: 16px;
+    margin: 0 8px;
+    align-self: stretch;
 }
