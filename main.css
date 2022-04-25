@@ -112,6 +112,7 @@ ul li a {
     background: rgba(142, 36, 36, 0.05);
     border-radius: 16px;
     padding: 10px;
+    font-weight: 600;
 }
 
 .vagas1 h1 {
@@ -154,4 +155,45 @@ ul li a {
     font-size: 16px;
     margin: 0 8px;
     align-self: stretch;
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    width: 1216px;
+    margin: 0 auto;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+}
+
+.depoimentos p {
+    color: var(--main-color);
+    font-size: 14px;
+    font-weight: 600;
+    margin: 25px 0;
+}
+
+.depoimentos h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.depoimentos img {
+    width: 56px;
+    height: 56px;
+    margin: 25px 0;
+}
+
+.depoimentos h2 {
+    font-size: 16px;
+    margin: 4px 0;
+}
+
+.depoimentos h3 {
+    font-size: 14px;
+    color: var(--text-color);
+    margin: 4px 0;
+    font-weight: 400;
 }
